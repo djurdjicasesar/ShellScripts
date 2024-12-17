@@ -6,6 +6,6 @@ This script installs aws cli, configures ipv4 forwarding, installs containerd, r
 It also initializes cluster on instance if it has "NodeType = Master" tag and stores values needed for workers to join in AWS Secret.
 or joines a node if the instance has "NodeType = Worker" tag.
 
-## mount_ebs_volume
-This script attaches and mounts AWS EBS volumes (xvda and nvme) to mount location. It must be run with three arguments(ebsVolumeId, device, mount_dir). You have to have aws-cli and nvme-cli already installed on the EC2 Instance for this script to work.
+## minikube_ubuntu_setup.sh
+This script installs minikube and everything else that is needed for the minikube cluster to be up and running on ubuntu.
 
