@@ -7,4 +7,5 @@ It also initializes cluster on instance if it has "NodeType = Master" tag and st
 or joines a node if the instance has "NodeType = Worker" tag.
 
 ## minikube_ubuntu_setup.sh
-This script installs minikube and everything else that is needed for the minikube cluster to be up and runninh on ubuntu.
+This script installs minikube and everything else that is needed for the minikube cluster to be up and running on ubuntu.
+
